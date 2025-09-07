@@ -510,7 +510,7 @@ def initialize_monitor():
 
         pfsense_host = os.getenv("PFSENSE_HOST", "192.168.1.1")
         pfsense_user = os.getenv("PFSENSE_USER", "admin")
-        pfsense_password = os.getenv("PFSENSE_PASSWORD", "Leoqsh!1")
+        pfsense_password = os.getenv("PFSENSE_PASSWORD", "X")
         log_path = os.getenv("SURICATA_LOG_PATH", "/var/log/suricata/suricata_vtnet156394/eve.json")
 
         st.session_state.monitor = SuricataMonitor(
